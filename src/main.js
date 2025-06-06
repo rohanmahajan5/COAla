@@ -3,7 +3,6 @@
 //  · No Node-only modules; everything runs under Vite.
 
 import jsQR from "jsqr";
-import jsQR from "jsqr";
 import * as pdfjsLib from "pdfjs-dist/legacy/build/pdf";
 
 // ← this line imports the worker file as a URL under Vite
