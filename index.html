@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>QR Scanner</title>
+    <style>
+      body      { margin:0; font:16px/1.4 system-ui, sans-serif; }
+      #video    { width:100%; height:auto; display:none; }  /* hidden until used */
+      #result   { margin:12px; font-weight:bold; }
+      #startBtn { margin:12px; padding:8px 16px; font-size:1rem; }
+    </style>
+  </head>
+
+  <body>
+    <h1>Point your camera at a QR code</h1>
+
+    <button id="startBtn">Start Scanner</button>
+    <video  id="video"  autoplay playsinline></video>
+    <canvas id="canvas" hidden></canvas>
+    <p id="result"></p>
+
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>

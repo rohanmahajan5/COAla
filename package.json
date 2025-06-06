@@ -1,0 +1,19 @@
+{
+  "name": "coala",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "install": "^0.13.0",
+    "npm": "^11.4.1",
+    "pdfjs-dist": "^5.3.31"
+  }
+}
