@@ -12,6 +12,7 @@
     "vite": "^6.3.5"
   },
   "dependencies": {
+    "@google/genai": "^1.4.0",
     "install": "^0.13.0",
     "npm": "^11.4.1",
     "pdfjs-dist": "^5.3.31"
